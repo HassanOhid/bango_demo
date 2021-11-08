@@ -23,12 +23,15 @@ class Student{
       
       this.cgpa = cgpa;
    }
+   
    public int getId() {
       return id;
    }
+   
    public String name() {
       return name;
    }
+   
    public double getCgpa() {
       return cgpa;
    }
