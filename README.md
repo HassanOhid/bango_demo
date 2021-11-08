@@ -7,12 +7,18 @@ import java.util.*;
 
 class Student{
    private int id;
+   
    private String  name;
+   
    private double cgpa;
+   
    public Student(int id, String name, double cgpa) {
       super();
-      this.id = id;
+     
+     this.id = id;
+      
       this.name = name;
+      
       this.cgpa = cgpa;
    }
    public int getId() {
@@ -41,6 +47,7 @@ public class Problemsolve {
          
          Student st = new Student(id, name, cgpa);
          studentList.add(st);
+         
          
          testCases--;
       }
